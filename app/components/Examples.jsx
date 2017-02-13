@@ -7,8 +7,8 @@ var Examples = () => {
       <h1 className="text-center">Examples</h1>
       <p>Here are a few example locations to try out:</p>
       <ol>
-        <li>
-          <Link to='/?location=Karaj'>Karaj, Iran</Link>
+        <li className="text-right" dir="rtl">
+          <Link to='/?location=Karaj' lang="fa" dir="rtl">کرج، ایران</Link>
         </li>
         <li>
           <Link to='/?location=Tehran'>Tehran, Iran</Link>
