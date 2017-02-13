@@ -3,7 +3,7 @@ var React = require('react');
 var About = () => {
   return (
     <div dir="rtl">
-      <h1 className="text-right">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <progress className="success" max="100" value="30" dir="rtl">Progress</progress>
       <p dir="rtl"> این یک سایت برای نمایش دمای هوای شهرهای دنیا میباشد.</p>
       <p dir="ltr">
