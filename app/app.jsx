@@ -7,13 +7,11 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
-var objOne = {
-  name: 'Ehsan',
-  location: 'Karaj'
-};
+//load foundation-sites
+require('style!css!foundation-sites/dist/css/foundation.min.css');
 
-console.log(objOne);
-var firstName = "Ehsan";
+$(document).foundation();
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
