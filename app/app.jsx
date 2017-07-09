@@ -6,6 +6,7 @@ var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
+var Table = require('Table');
 //adding some comments
 
 //load foundation-sites
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Route path="/" component={Main}>
       <Route path="about" component={About}/>
       <Route path="examples" component={Examples}/>
+      <Route path="table" component={Table}/>
       <IndexRoute component={Weather}/>
     </Route>
   </Router>,
